@@ -123,4 +123,35 @@ body {
     font-size: 1rem;
     margin-bottom: 1rem;
 }
+.legal-container ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1rem;
+}
+
+.legal-container li {
+    position: relative;
+    padding-left: 22px;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--light-text);
+}
+
+.legal-container li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--light-text);
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.legal-container li strong {
+    color: var(--dark-text);
+    font-weight: 600;
+}
+
+
 
