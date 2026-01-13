@@ -61,7 +61,7 @@ body {
     margin-bottom: 2rem;
 }
 
-/* --- Store Buttons (FIXED SIZE & ALIGNMENT) --- */
+/* --- Store Buttons (FIXED & UNIFIED SIZE) --- */
 .store-buttons {
     display: flex;
     justify-content: center;
@@ -72,14 +72,9 @@ body {
 }
 
 .store-button img {
-    height: 56px;      /* Base height */
+    height: 54px;     /* SAME height for Apple & Google */
     width: auto;
     display: block;
-}
-
-/* Google Play badge needs slight visual adjustment */
-.store-button.google img {
-    height: 52px;
 }
 
 /* --- Footer --- */
