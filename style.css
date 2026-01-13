@@ -71,11 +71,25 @@ body {
     align-items: center;
 }
 
+/* --- Store Buttons (VISUALLY EQUAL SIZE FIX) --- */
+.store-button {
+    height: 54px;              /* single visual height */
+    display: flex;
+    align-items: center;
+}
+
 .store-button img {
-    height: 54px;     /* SAME height for Apple & Google */
+    height: 100%;
     width: auto;
+    object-fit: contain;
     display: block;
 }
+
+/* Google Play badge is naturally smaller — normalize it */
+.store-button.google img {
+    transform: scale(1.1);
+}
+
 
 /* --- Footer --- */
 .main-footer {
@@ -170,3 +184,4 @@ body {
     color: var(--dark-text);
     font-weight: 600;
 }
+
