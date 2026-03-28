@@ -1,0 +1,16 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "53XTTXSCJQ.com.vastrayl.app"
+        ],
+        "components": [
+          {
+            "/": "/outfit/*"
+          }
+        ]
+      }
+    ]
+  }
+}
